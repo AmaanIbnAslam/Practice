@@ -1,0 +1,12 @@
+body {
+  background-color: rgba(1, 44, 53, 0.899);
+  color: white;
+  outline-color: white;
+}
+th {
+  border: 2px solid white;
+}
+
+td {
+  border: 2px solid white;
+}

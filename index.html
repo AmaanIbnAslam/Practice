@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice web</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Practice sheet</h1>
+  <h2>List Tags</h2>
+  <ul type="square">
+    <li>January</li>
+    <li>Febrary</li>
+    <li>March</li>
+  </ul>
+
+  <ol type="i">
+    <li>January</li>
+    <li>Febrary</li>
+    <li>March</li>
+  </ol>
+
+  <h2>Hyperlink and Media Tags</h2>
+  <p>
+    <a target="_blank" href="https://www.google.co.in"><img
+        src="https://th.bing.com/th/id/R.0fa3fe04edf6c0202970f2088edea9e7?rik=joOK76LOMJlBPw&riu=http%3a%2f%2fpluspng.com%2fimg-png%2fgoogle-logo-png-open-2000.png&ehk=0PJJlqaIxYmJ9eOIp9mYVPA4KwkGo5Zob552JPltDMw%3d&risl=&pid=ImgRaw&r=0"
+        alt="Googke Logo" height="50"></a>
+  </p>
+  <h2>Table Tags</h2>
+
+  <table>
+    <caption>
+      <h3>Friends List</h3>
+    </caption>
+    <thead>
+      <tr>
+        <th colspan="1">Amaan</th>
+        <th colspan="1">Jamshed</th>
+        <th colspan="1">Zaid</th>
+        <th colspan="1">Kaif</th>
+        <th colspan="1">Rizwan</th>
+      </tr>
+    <tbody>
+      <td rowspan="1">Me</td>
+      <td rowspan="1">Mota</td>
+      <td rowspan="1">Akki</td>
+      <td rowspan="1">Chapta</td>
+      <td owspan="1">Raddi</td>
+      </tr>
+    </tbody>
+    <tfoot>
+
+    </tfoot>
+  </table>
+  <script src="script.js"></script>
+
+  <h2>Form Tags</h2>
+  <form action="post">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" name="username" id="username" placeholder="Enter your username">
+    </div>
+    <div>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+    </div>
+    <div>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+    </div>
+    <div>
+      <label for="Enter your Comment"></label>
+    </div>
+    <div>
+      <input type="checkbox" name="subscribe" id="subscribe" value="Yes">
+      <label for="subscribe">subscribe to my channel</label>
+    </div>
+    <div>
+      <label for="Comment">Enter your Comment:</label>
+      <br>
+      <textarea name="Comment" id="Comment" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+      <label for="Your fav color">Your fav color:</label>
+      <select name="color" id="color">
+      <option value="Red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="yellow">Yellow</option>
+      <option value="green">Green</option>
+      <option value="white">White</option>
+    </select>
+    </div>
+  </form>
+</body>
+
+</html>
